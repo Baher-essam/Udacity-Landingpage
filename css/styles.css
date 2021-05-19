@@ -89,6 +89,11 @@ section {
     text-decoration: none;
     color: #fff;
 }
+/*active status style for navbar links*/
+.navbar__menu ul li a.active {
+    background-color: #000;
+    color: #fff;
+}
 
 .navbar__menu .menu__link:hover {
     background: #333;
