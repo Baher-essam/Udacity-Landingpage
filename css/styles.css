@@ -64,6 +64,14 @@ section {
 /* ---- Module Rules ---- */
 
 /* Navigation Styles*/
+.navbar__menu 
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #00000031;
+    width: 100%;
+}
 .navbar__menu ul {
     padding-left: 0;
     margin: 0;
@@ -79,7 +87,7 @@ section {
     padding: 1em;
     font-weight: bold;
     text-decoration: none;
-    color: #000;
+    color: #fff;
 }
 
 .navbar__menu .menu__link:hover {
@@ -90,6 +98,7 @@ section {
 
 /* Header Styles */
 .page__header {
+    position: relative;
     background: #fff;
     position: fixed;
     top: 0;
@@ -120,6 +129,11 @@ section {
     .landing__container {
         max-width: 50em;
         padding: 4em;
+    }
+}
+@media only screen and (max-width: 426px){
+    .navbar__menu .menu__link {
+        font-size: 14px;
     }
 }
 
