@@ -21,6 +21,7 @@ const sections = document.querySelectorAll('section');
 const navbar = document.getElementById('navbar__list');
 /**
  * End Global Variables
+ * 
  * Start Helper Functions
  * 
 */
@@ -42,7 +43,7 @@ const navBuliding = () => {
         navContent += `<li><a class="menu__link" href="#${sectionId}">${navLinkName}</a></li>`;
     });
     //append all emelmnets to navbar
-    navbar.innerHTML = navUI;
+    navbar.innerHTML = navContent;
 
 }
 navBuliding();
